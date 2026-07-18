@@ -86,9 +86,7 @@ int main(int argc, char* argv[]) {
         }
     }
 
-    std::cout << "\n"
-        << "Process finished.\n"
-        << "Press ENTER to clean up and close.";
+    std::cout << "\n" "\n" << "Patching successful. Press ENTER to clean up the remaining executable files and close the patcher.";
 
     std::cin.ignore();
 
