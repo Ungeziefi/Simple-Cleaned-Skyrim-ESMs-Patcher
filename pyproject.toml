@@ -1,0 +1,16 @@
+[project]
+name = "simple-cleaned-skyrim-esms-patcher"
+version = "1.2.1"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyinstaller>=6.22.3"
+]
+
+[project.scripts]
+simple-cleaned-skyrim-esms-patcher = "simple_cleaned_skyrim_esms_patcher:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
